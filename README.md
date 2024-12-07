@@ -18,5 +18,7 @@
         - **Requests per IP**: Columns: `IP Address`, `Request Count`
         - **Most Accessed Endpoint**: Columns: `Endpoint`, `Access Count`
         - **Suspicious Activity**: Columns: `IP Address`, `Failed Login Count`
+cd log-analysis-assignment
+python log_analysis.py
 
   
