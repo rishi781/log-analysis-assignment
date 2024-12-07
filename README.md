@@ -26,6 +26,7 @@
 - [log_analysis_results.csv](log_analysis_results.csv): A log analysis assignment terminal output.
 
 **Requirements:**
+
 1] Python 3.x
 2] Google Colaboratory
 
