@@ -1,3 +1,5 @@
+# **VRV Security’s Python Intern Assignment**
+
 # **Core Requirements:**
 1. **Count Requests per IP Address**:
     - Parse the provided log file to extract all IP addresses.
