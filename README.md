@@ -18,11 +18,19 @@
         - **Requests per IP**: Columns: `IP Address`, `Request Count`
         - **Most Accessed Endpoint**: Columns: `Endpoint`, `Access Count`
         - **Suspicious Activity**: Columns: `IP Address`, `Failed Login Count`
-## Files
+
+**## Files**
 
 - [log_analysis.py](log_analysis.py): The Python script for log analysis.
 - [sample.log](sample.log): A sample log file used for testing the script.
-- [log_analysis_results.csv](log_analysis_results.csv): A log analysis assignment terminal output
+- [log_analysis_results.csv](log_analysis_results.csv): A log analysis assignment terminal output.
+
+**Requirements:**
+1] Python 3.x
+2] Google Colaboratory
+
+
+  
 
 
   
