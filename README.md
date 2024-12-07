@@ -22,6 +22,7 @@
 
 - [log_analysis.py](log_analysis.py): The Python script for log analysis.
 - [sample.log](sample.log): A sample log file used for testing the script.
--[log_analysis_results.csv](log_analysis_results.csv)
+- [log_analysis_results.csv](log_analysis_results.csv): A log analysis assignment terminal output
+
 
   
