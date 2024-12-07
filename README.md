@@ -27,9 +27,32 @@
 
 **Requirements:**
 
-1] Python 3.x
+Python 3.x or Google Colaboratory
 
-2] Google Colaboratory
+**Way to upload sample.log file to Google Colaboratory. Here's how:**
+
+**Use the File Upload Feature in Colab:**
+
+1. Open your Colab notebook.
+2. Run the following code to enable the upload widget:
+ 
+       from google.colab import files
+       uploaded = files.upload()
+
+4. This will open a file picker dialog. Select your sample.log file from your local computer.
+
+5. Once uploaded, Colab saves the file in its root directory (/content). You can verify its presence by listing the files:
+
+       !ls
+
+6. Use the file in your script as:
+ 
+       with open('sample.log', 'r') as log_file:
+         for line in log_file:
+            print(line.strip())
+
+
+
 
 
   
