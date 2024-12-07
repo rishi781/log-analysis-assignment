@@ -1,4 +1,4 @@
-**Core Requirements**
+# **Core Requirements:**
 1. **Count Requests per IP Address**:
     - Parse the provided log file to extract all IP addresses.
     - Calculate the number of requests made by each IP address.
@@ -19,19 +19,19 @@
         - **Most Accessed Endpoint**: Columns: `Endpoint`, `Access Count`
         - **Suspicious Activity**: Columns: `IP Address`, `Failed Login Count`
 
-**## Files**
+# **Files:**
 
 - [log_analysis.py](log_analysis.py): The Python script for log analysis.
 - [sample.log](sample.log): A sample log file used for testing the script.
 - [log_analysis_results.csv](log_analysis_results.csv): A log analysis assignment terminal output.
 
-**Requirements:**
+# **Requirements:**
 
 Python 3.x or Google Colaboratory
 
-**Way to upload sample.log file to Google Colaboratory. Here's how:**
+# **Way to upload sample.log file to Google Colaboratory. Here's how:**
 
-**Use the File Upload Feature in Colab:**
+# **Use the File Upload Feature in Colab:**
 
 1. Open your Colab notebook.
 2. Run the following code to enable the upload widget:
